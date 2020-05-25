@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  background-color: #193f5d;
+  font-family: "Avenir Next W01",Arial,Helvetica,sans-serif;
+
+}
+
+.headerContainer{
+  width: 70%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 1em;
+}
+
+.headerContainer i{
+
+  color: #fff;
+}
+
+.navContainer{
+  width: 90%;
+  margin: auto;
+}
+
+.topnavContainer{
+  width: 100%;
+  text-align: right;
+  padding-right: 1em;
+  padding-bottom: 0.5em;;
+}
+
+.topnavContainer ul{
+  /* width: 35%; */
+  color: #fff;
+  display: inline-flex;
+}
+
+.topnavContainer ul li{
+  list-style: none;
+  margin: 0 1em;
+}
+
+.topnavContainer form{
+  list-style: none;
+  display: inline-flex;
+}
+
+.topnavContainer form input[type=text] {
+  width: 100%;
+  padding: 0.5em;
+  /* font-size: 17px; */
+  border: none;
+  border-top-left-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
+}
+
+.topnavContainer form button{
+  padding: 0.5em;
+  /* margin-top: 8px; */
+  /* margin-right: 16px; */
+  background: #ddd;
+  /* font-size: 17px; */
+  border: none;
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+  cursor: pointer;
+}
+
+.bottomnavContainer{
+  width: 100%;
+  text-align: right;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+.bottomnavContainer i{
+  color: #b5ec4a;
+}
+
+.bottomnavContainer ul{
+  color: #fff;
+  display: inline-flex;
+}
+
+.bottomnavContainer ul li{
+  list-style: none;
+  display: inline-flex;
+  padding-left: 1em;
+}
+
+
+.schoolnameContainer{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.schoolnameContainer h1{
+  color: #fff;
+  font-weight: bold;
+}
+
+.schoolnameContainer h2{
+  color: #b5ec4a;
+  font-weight: normal;
+}
+
+#menuLinks{
+  display: none;
+}
+
+.sloganContainer{
+  width: 70%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+
+.sloganContainer h2{
+  width: 55%;
+  color: #fff;
+}
+
+.newsletterContainer{
+  width: 70%;
+  background-color: #fff;
+  border-radius: 0.5em;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+}
+
+.newsletterContainer h3{
+  width: 25%;
+  color: #b5ec4a;
+
+}
+
+.newsletterContainer p{
+  width: 70%;
+  color: #000;
+  margin:  0 auto;
+  font-size: 1em;
+}
+
+.activityContainer{
+  width: 70%;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.activityContainer .activityContent{
+  width: 59%;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 0.5em;
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.activityContainer .activityContent .content{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+
+}
+
+.activityContainer .activityContent .content h4{
+  width: 100%;
+  background-color: #888;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent .content h5{
+  width: 100%;
+  background-color: #87a359;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent2{
+  width: 39%;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 0.5em;
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-bottom: 1em;
+  text-align: left;
+
+}
+
+.activityContainer .activityContent2 .content{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+
+}
+
+.activityContainer .activityContent2 .content h4{
+  width: 100%;
+  background-color: #888;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent2 .content h5{
+  width: 100%;
+  background-color: #87a359;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent3{
+  width: 39%;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 0.5em;
+  position: relative;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-bottom: 1em;
+
+}
+
+.activityContainer .activityContent3 .content{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+
+}
+
+.activityContainer .activityContent3 .content h4{
+  width: 100%;
+  background-color: #888;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent3 .content h5{
+  width: 100%;
+  background-color: #87a359;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent4{
+  width: 59%;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 0.5em;
+  position: relative;
+  display: inline-block;
+  float: right;
+  text-align: left;
+  margin-bottom: 1em;
+
+}
+
+.activityContainer .activityContent4 .content{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+
+}
+
+.activityContainer .activityContent4 .content h4{
+  width: 100%;
+  background-color: #888;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer .activityContent4 .content h5{
+  width: 100%;
+  background-color: #92a8b4;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.activityContainer button{
+  width: 30%;
+  background-color: #3e9aff;
+  color: #fff;
+  padding: 1em;
+  margin-top: 2em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.footerContainer{
+  width: 100%;
+  background-color: #102236;
+  text-align: center;
+  padding: 2em;
+}
+
+.footerContainer h3{
+  color: #87a359;
+}
+
+.footerContainer ul{
+  color: #fff;
+  padding: 2em;
+}
+
+.footerContainer li{
+  list-style: none;
+  margin: 0 1em;
+  display: inline-block;
+}
+
+.footerContainer2{
+  width: 100%;
+  background-color: #0e1d2e;
+  display: flex;
+}
+
+.footerContainer2 h3{
+  color: #87a359;
+}
+
+.footerContainer2 ul{
+  width: 70%;
+  color: #fff;
+  padding: 2em;
+
+}
+
+.footerContainer2 li{
+  list-style: none;
+  margin: 0 1em;
+}
+
+.footerContainer2 a{
+  width: 30%;
+  color: #5ea9dd;
+  text-decoration: none;
+  margin: auto;
+
+}
